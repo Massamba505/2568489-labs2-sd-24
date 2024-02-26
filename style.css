@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+li{
+    margin: 10px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+/* ====================== */
+section{
+    text-align: center;
+    margin: 30px;
+}
+section h2{
+    margin-bottom: 15px;
+}
+.Services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px;
+}
+
+.Services figure{
+    border: 1px solid gray;
+    padding: 15px;
+}
+/* ===================== */
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: small;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 20px;
+}
